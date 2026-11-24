@@ -1,0 +1,16 @@
+# Core runtime ---------------------------------------------------------------
+torch>=2.2
+numpy>=1.24
+datasets>=2.14
+tokenizers>=0.15
+matplotlib>=3.7
+
+# Notebook environment -------------------------------------------------------
+jupyterlab>=4.0
+
+# Optional: computational-graph rendering (section 15) ----------------------
+# Also requires the Graphviz system package:
+#   macOS:  brew install graphviz
+#   Ubuntu: sudo apt-get install graphviz
+# torchviz>=0.0.2
+# graphviz>=0.20

@@ -1,0 +1,40 @@
+# Python ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Auto-generated data and tokenizer caches -----------------------------------
+# Rebuilt automatically by the notebook on first run.
+data/
+tokenizer/
+*.bin
+
+# Model checkpoints (hundreds of MB) ----------------------------------------
+checkpoints/
+checkpoints_*/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Generated architecture graphs ---------------------------------------------
+pip_transformer_architecture*
+piptransformer_architecture*
+assets/generated_*
+
+# Legacy notebook drafts / unrelated scratch files --------------------------
+# The published notebook is pip_transformer_tinystories.ipynb.
+PIP transformer.ipynb
+pip_transformer copy.ipynb
+pip_transformer copy 2.ipynb
+pip_transformer.ipynb
+microgpt.ipynb
+input.txt
+
+# OS / editor ----------------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
